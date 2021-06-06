@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(79, 124, 126);
+}
+.main{
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 121, 121);
+    border-radius: 10rem;
+    box-shadow: darkgray 0px 5px 5px 3px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.main:hover {
+    box-shadow: darkgray 0px 15px 15px 4px;
+}
+.head{
+    font-size: 4rem;
+    color: white;
+}
+.textfeild{
+    font-size: 2rem;
+    color: white;
+
+}
+input ,[type="email"] ,[type="password"]{
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    border-bottom: solid rgb(23, 66, 66) 1px;
+    width: 25rem;
+    height: 3rem;
+}
+.btn {
+    width: 15rem;
+    height: 5rem;
+    background: transparent;
+    border-radius: 20%;
+    text-decoration: none;
+    border: solid rgb(23, 66, 66) 3px;
+    font-size: 3rem;
+    color: white;
+}
+.btn:hover{
+    color:black ;
+    background-color: rgba(255, 255, 255, 0.52);
+    box-shadow: darkgray 0px 5px 5px 0px;
+    border-color: rgba(255, 250, 240, 0.76);
+}
+.DataStyle{
+    margin-top: 2rem;
+    background-color: rgb(46, 121, 121);
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+    box-shadow: darkgray 0px 3px 3px 2px;
+    margin-left: 15%;
+    color: white;
+    font-size: 2rem;
+}
+.DataStyle p {
+    display: flex;
+    padding: 1rem;
+}
+
+/* .DataStyle {
+    min-width: 20rem;
+    width: 60rem;
+    min-height: 2rem;
+    padding: 1rem;
+    background: rgb(68, 116, 207);
+    color: aliceblue;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.5);
+  }
+  
+.DataStyle p {
+    font-size: 1.5rem;
+  }
+  
+.DataStyle p:first-child {
+    font-weight: bold;
+  } */
