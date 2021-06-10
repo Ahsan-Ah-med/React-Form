@@ -66,7 +66,7 @@ input ,[type="email"] ,[type="password"]{
     font-size: 2rem;
 }
 .DataStyle p {
-    display: flex;
+    display: inline;
     padding: 1rem;
 }
 
@@ -93,3 +93,42 @@ input ,[type="email"] ,[type="password"]{
 .DataStyle p:first-child {
     font-weight: bold;
   } */
+.Resize {
+    color: white;
+    font-size: 5rem;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: silver 0px 0px 0px 3px;
+    width: 50%;
+
+}
+@media screen and (max-width: 720px){
+.Resize {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.main{
+    margin-left: 13.5%;
+    width: 30rem;
+}
+.head {
+    font-size: 3rem;
+}
+.textfeild {
+    font-size: 1.5rem;
+}
+.btn {
+    font-size: 2rem;
+    width: 10rem;
+    height: 3rem;
+}
+/* .DataStyle p {
+    display: flex;
+    line-break: auto;
+} */
+}
